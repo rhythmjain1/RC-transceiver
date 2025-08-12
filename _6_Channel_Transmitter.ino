@@ -64,5 +64,5 @@ void loop() {
   // Send packet
   radio.write(&data, sizeof(Signal));
 
-  delay(10); // 50 Hz update rate
+  delay(20); // 50 Hz update rate
 }
