@@ -1,6 +1,4 @@
 // 6 Channel Receiver 
-// Swapnil Nimbalkar
-// The DC Minds
 
 #include <SPI.h>
 #include <nRF24L01.h>
@@ -94,30 +92,9 @@ ch5.writeMicroseconds(ch_width_5);
 ch6.writeMicroseconds(ch_width_6);
 
 
-//Serial.print(data.pitch);
-//Serial.print(" ");
-//Serial.print(data.throttle);
-//Serial.print(" ");
-//Serial.print(data.yaw);
-//Serial.print(" ");
-//Serial.print(data.roll);
-//Serial.print(" ");
-//Serial.print(data.aux1);
-//Serial.print(" ");
-//Serial.print(data.aux2);
-//Serial.print(" ");
-//Serial.print(ch_width_1);
-//Serial.print(" ");
-//Serial.print(ch_width_2);
-//Serial.print(" ");
-//Serial.print(ch_width_3);
-//Serial.print(" ");
-//Serial.print(ch_width_4);
-//Serial.print(" ");
-//Serial.print(ch_width_5);
-//Serial.print(" ");
-//Serial.print(ch_width_6);
+
 
 
 }
+
 
