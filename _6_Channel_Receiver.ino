@@ -50,8 +50,6 @@ void setup()
   radio.setPALevel(RF24_PA_MAX);
   radio.setChannel(108);
   ResetData();
-  //Serial.begin(250000);
-  
   ch1.attach(9);
   ch2.attach(2);
   ch3.attach(3);
@@ -96,5 +94,6 @@ ch6.writeMicroseconds(ch_width_6);
 
 
 }
+
 
 
