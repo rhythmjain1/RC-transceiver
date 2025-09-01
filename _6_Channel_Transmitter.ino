@@ -1,5 +1,5 @@
 // 6 Channel Transmitter
-// Matches the 6-channel receiver structure
+
 
 #include <SPI.h>
 #include <nRF24L01.h>
